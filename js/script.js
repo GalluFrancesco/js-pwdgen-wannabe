@@ -12,7 +12,4 @@ let userColor = prompt('Inserisci il tuo colore preferito');
 //alla sua variabile di defoult innerHTML
 let htmlElement = document.getElementById('password');
 
-//htmlElement.innerHTML= userName + userLastName + userColor;
-htmlElement.innerHTML= '${userName}${userLastName}${userColor}';
-
-console.log(htmlElement.innerHTML);
+htmlElement.innerHTML= `La tua password è: ${userName}${userLastName}${userColor}`;
